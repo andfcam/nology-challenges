@@ -1,0 +1,56 @@
+/* need to refactor code completely if returning */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.blue {
+    width: 900px;
+    height: 600px;
+    background-color: navy;
+    overflow: hidden;
+}
+.white {
+    position: absolute;
+    width: 2000px;
+    left: -450px;
+    top: 250px;
+    height: 100px;
+    background-color: white;
+    transform-origin: 900px;
+}
+.back {
+    transform: rotate(30deg);
+}
+.forward {
+    transform: rotate(-30deg);
+}
+.top-cross {
+    position: absolute;
+    background-color: white;
+    height: 600px;
+    width: 150px;
+    left: 375px;
+}
+.side-cross{
+    position: absolute;
+    background-color: white;
+    height: 150px;
+    width: 900px;
+    top: 225px;
+}
+.top-red {
+    position: absolute;
+    background-color: red;
+    height: 600px;
+    width: 100px;
+    left: 400px;
+}
+.side-red {
+    position: absolute;
+    background-color: red;
+    height: 100px;
+    width: 900px;
+    top: 250px;
+}

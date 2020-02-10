@@ -1,0 +1,35 @@
+* {
+    font-family: "Courier New";
+    text-align: center;
+}
+section {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.main-box {
+    border: 1px solid black;
+    background-color: #ddd;
+}
+button {
+    background-color: white;
+    padding: 2em;
+    color: black;
+    border: 1px solid black;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover {
+    background-color:lightgreen;
+}
+p.affirmation {
+    display: block;
+    margin: 0 auto;
+    font-size: 2em;
+    color: red;
+    max-width: 500px;
+}
+h2 {
+    color: red;
+}
